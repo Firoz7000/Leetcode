@@ -1,19 +1,16 @@
-#include<iostream>
-using namespace std;
-int main(){
-    int arr[5] = {10, 20, 30, 40, 50};
-    int max = arr[0];
-    for(int i = 0; i<=4; i++){
-        if(arr[i] > max){
-          max = arr[i];
-        }
+int arr[] = {12, 45, 3, 67, 21};
+int n = 5;
+
+int maxVal = arr[0];
+int minVal = arr[0];
+
+for (int i = 1; i < n; i++) {
+    if (arr[i] > maxVal) {
+        maxVal = arr[i];
     }
-    int min = arr[0];
-    for(int i = 0; i<=4; i++){
-        if(arr[i] < min){
-          min = arr[i];
-        }
+    if (arr[i] < minVal) {
+        minVal = arr[i];
     }
-    cout << "Difference between two elements : " << (max - min );
-    
 }
+
+cout << "Difference: " << (maxVal - minVal);
