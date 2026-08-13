@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+int main(){
 int arr[] = {12, 45, 3, 67, 21};
 int n = 5;
 
@@ -13,4 +16,5 @@ for (int i = 1; i < n; i++) {
     }
 }
 
-cout << "Difference: " << (maxVal - minVal);
+  cout << "Difference: " << (maxVal - minVal);
+}
