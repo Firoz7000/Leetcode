@@ -13,5 +13,5 @@ int main(){
         sum2 = sum2 + arr2[j];
     }
     int sum = sum1 + sum2;
-    cout << "Combined" << sum ; 
+    cout << "Combined " << sum ; 
 }
