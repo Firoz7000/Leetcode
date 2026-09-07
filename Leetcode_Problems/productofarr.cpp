@@ -1,4 +1,4 @@
-// 238 Leetcode Problem
+//238
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
